@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  
+ 
+}
+
+
+section{
+  min-height: 100vh;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwQZF_QWJYa6PS5YZ40uyzw18eyxyzynSSA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+}
+
+nav{
+  height: 80px;
+}
+
+nav h1{
+  float: left;
+  line-height: 80px;
+  font-size: 30px;
+  font-size: inline;
+  
+  color: white ;
+  
+  
+}
+
+nav ul{
+  float: right;
+  line-height: 80px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0 8px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white  ;
+  
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 7px 8px;
+
+}
+
+nav ul li a:hover{
+  background: #82C018  ;
+  transition: 0.5s ease-in;
+  
+}
+
+nav ul li .active{
+  background: #82C018  ;
+}
+
+
+.articles{
+  width: 50%;
+  text-align: center;
+  margin: auto ;
+  transform: translateY(25vh);
+}
+
+.articles h1{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.articles p{
+  color: #D7D8E4;
+  margin: 20px;
+  font-size: 15px;
+}
+
+button{
+  padding: 15px 50px;
+ background: #49BD23  ;
+ border-radius: 8px;
+}
+
+
+button a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
